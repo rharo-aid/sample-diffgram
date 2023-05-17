@@ -18,7 +18,7 @@ example.com\+6-key.pem
 example.com\+6.pem
 
 # Chart dependencies
-# **/charts/*.tgz
+**/charts/*.tgz
 ca.crt
 
 ca.key
