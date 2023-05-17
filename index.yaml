@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  diffgram:
+  - apiVersion: v2
+    appVersion: 1.21.0
+    created: "2023-05-16T14:15:35.721247-07:00"
+    dependencies:
+    - condition: useRabbitMq
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.2.2
+    description: A Helm chart for Kubernetes
+    digest: 38ca0a04c36ef423ca58f133628f24ba830879146c3382467f2173b53ad2169f
+    name: diffgram
+    type: application
+    urls:
+    - charts/diffgram-1.7.0.tgz
+    version: 1.7.0
+  rabbitmq:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 3.11.5
+    created: "2023-05-16T14:15:35.723518-07:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: RabbitMQ is an open source general-purpose message broker that is
+      designed for consistent, highly-available messaging scenarios (both synchronous
+      and asynchronous).
+    digest: 397b4189298ef4a1d40f38c461316989c9f310cf359c3c206d703e22c290dee9
+    home: https://github.com/bitnami/charts/tree/main/bitnami/rabbitmq
+    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - message queue
+    - AMQP
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: rabbitmq
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/rabbitmq
+    - https://www.rabbitmq.com
+    urls:
+    - charts/rabbitmq-11.2.2.tgz
+    version: 11.2.2
+generated: "2023-05-16T14:15:35.717899-07:00"
