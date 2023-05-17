@@ -3,14 +3,14 @@ entries:
   diffgram:
   - apiVersion: v2
     appVersion: 1.21.0
-    created: "2023-05-17T07:51:52.746308-07:00"
+    created: "2023-05-17T08:27:16.074624-07:00"
     dependencies:
     - condition: useRabbitMq
       name: rabbitmq
       repository: https://charts.bitnami.com/bitnami
       version: 11.2.2
     description: A Helm for Diffgram
-    digest: a9626f87ee8e28eb8d064aba0e007f0913591a47472e96b3e6a3f5e77a0de444
+    digest: 60e36fc17fa80b7af7ea788f81d0627754e0330b1c23462f949e3501988d09fd
     name: diffgram
     type: application
     urls:
@@ -21,7 +21,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.11.5
-    created: "2023-05-17T07:51:52.75005-07:00"
+    created: "2023-05-17T08:27:16.076765-07:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -48,4 +48,4 @@ entries:
     urls:
     - https://github.com/rharo-aid/sample-diffgram/charts/rabbitmq-11.2.2.tgz
     version: 11.2.2
-generated: "2023-05-17T07:51:52.743056-07:00"
+generated: "2023-05-17T08:27:16.071724-07:00"
